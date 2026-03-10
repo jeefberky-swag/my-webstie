@@ -4,16 +4,35 @@
         <title>Search</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
             integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="style.css">
+
     </head>
     <body>
         <form action="https://www.google.com/advanced_search" method="get">
-            <div> Advanced Search </div>
+            <div class="title"> Advanced Search </div>
             <hr />
+
             <div>Find Pages with...</div>
             <label for="with_words">All these words: </label> <br>
-            <input type="text" value="as_q" id="with_words">
+            <input type="text" plalceholder="" value="as_q" id="with_words"><br>
+
             <label for="exact">this exact word or phrase:</label> <br>
-            <input type="text" value="as_epq" id="exact">
+            <input type="text" plalceholder="" value="as_epq" id="exact">
+
+            <label for="any">any of these words:</label> <br>
+            <input type="text" plalceholder="" value="as_oq" id="any"><br>
+
+            <label for="none">any of these words:</label> <br>
+            <input type="text" plalceholder="" value="as_eq" id="none"> <br>
+
+            <label for="num">numbers ranging from:</label> <br>
+            <input type="text" plalceholder="" value="as_nlo" id="num"><br>
+            <input type="text" plalceholder="" value="as_nhi">
+
+            <hr />
+            <input type="submit" value="Advanced Search">
+            
         </form>
     </body>
 </html>
