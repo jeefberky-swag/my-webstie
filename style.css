@@ -2,6 +2,13 @@
 
 .title{
     text-align: center;
+    color: red;
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+.goog{
+    margin-left: .2em;
 }
 
 input[type="text"] {

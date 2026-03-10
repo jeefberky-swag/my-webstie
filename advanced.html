@@ -10,25 +10,26 @@
     </head>
     <body>
         <form action="https://www.google.com/advanced_search" method="get">
+            <div>Google</div>
             <div class="title"> Advanced Search </div>
             <hr />
 
             <div>Find Pages with...</div>
             <label for="with_words">All these words: </label> <br>
-            <input type="text" plalceholder="" value="as_q" id="with_words"><br>
+            <input type="text" plalceholder="" name="as_q" id="with_words"><br>
 
             <label for="exact">this exact word or phrase:</label> <br>
-            <input type="text" plalceholder="" value="as_epq" id="exact">
+            <input type="text" plalceholder="" name="as_epq" id="exact">
 
             <label for="any">any of these words:</label> <br>
-            <input type="text" plalceholder="" value="as_oq" id="any"><br>
+            <input type="text" plalceholder="" name="as_oq" id="any"><br>
 
             <label for="none">any of these words:</label> <br>
-            <input type="text" plalceholder="" value="as_eq" id="none"> <br>
+            <input type="text" plalceholder="" name="as_eq" id="none"> <br>
 
             <label for="num">numbers ranging from:</label> <br>
-            <input type="text" plalceholder="" value="as_nlo" id="num"><br>
-            <input type="text" plalceholder="" value="as_nhi">
+            <input type="text" plalceholder="" name="as_nlo" id="num"><br>
+            <input type="text" plalceholder="" name="as_nhi">
 
             <hr />
             <input type="submit" value="Advanced Search">
