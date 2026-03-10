@@ -16,6 +16,10 @@ input[type="text"] {
     width: 40%;
 }
 
-label{
-    margin-right: 2em;
-}
+
+
+#parent { 
+    margin: 2em;
+    white-space: nowrap; }
+.child 
+{ display: inline-block; }

@@ -9,18 +9,16 @@
 
     </head>
     <body>
-        <form action="https://www.google.com/advanced_search">
+        <form action="https://www.google.com/search">
             <div class="goog">Google</div>
             <div class="title"> Advanced Search </div>
             <div>To do in this search</div>
             <hr />
 
             <div>Find Pages with...</div>
-            <div>
-            <label for="with_words">All these words: </label> 
-            <p> Type the important words:  tricolor rat terrier</p>
+            <label id="parent" for="with_words">All these words: </label> 
+            <p class="child"> Type the important words:  tricolor rat terrier</p>
             <input type="text" plalceholder="" name="as_q" id="with_words"><br>
-            </div>
 
             <label for="exact">this exact word or phrase:</label> 
             <input type="text" plalceholder="" name="as_epq" id="exact"><br>
